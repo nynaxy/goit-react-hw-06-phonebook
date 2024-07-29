@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import ContactForm from "./ContactForm";
-import ContactList from "./ContactList";
-import Filter from "./Filter";
-import Notification from "./Notification";
+import ContactForm from "./components/ContactForm/ContactForm";
+import ContactList from "./components/ContactList";
+import Filter from "./components/Filter/Filter";
+import Notification from "./components/Notification";
 
 function App() {
   const [contacts, setContacts] = useState([]);
